@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyToDoAppV1</name>
+    </assembly>
+    <members>
+        <member name="T:MyToDoAppV1.Controllers.ToDoTaskController">
+            <summary>
+            ToDoTask Container
+            </summary>
+        </member>
+        <member name="M:MyToDoAppV1.Controllers.ToDoTaskController.AddToDoTaskAsync(ToDoLibrary.Models.ToDo)">
+            <summary>
+            Add ToDo Task
+            </summary>
+            <param name="ToDoTaskRequest">ToDo Task request data</param>
+            <returns>ToDO Task response</returns>
+        </member>
+        <member name="M:MyToDoAppV1.Controllers.ToDoTaskController.GetToDoTaskAsync(System.Int32)">
+            <summary>
+            Get ToDo Task
+            </summary>
+            <param name="ToDoId">ToDoId</param>
+            <returns>ToDO Task response</returns>
+        </member>
+        <member name="M:MyToDoAppV1.Controllers.ToDoTaskController.UpdateTaskAsync(System.Int32,ToDoLibrary.Models.ToDo)">
+            <summary>
+            Update ToDo Task
+            </summary>
+            <param name="ToDoId"></param>
+            <param name="ToDoTaskRequest">Updated ToDo Task request data</param>
+            <returns>ToDO Task response</returns>
+        </member>
+        <member name="T:MyToDoAppV1.Controllers.TypeController">
+            <summary>
+            TypeController
+            </summary>
+        </member>
+        <member name="M:MyToDoAppV1.Controllers.TypeController.#ctor(ToDoLibrary.DataAgent.ToDoDataContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:MyToDoAppV1.Controllers.TypeController.AddTypeAsync(ToDoLibrary.Models.ToDoType)">
+            <summary>
+            Add ToDo Task
+            </summary>
+            <param name="TypeRequest">ToDo Task request data</param>
+            <returns>ToDO Task response</returns>
+        </member>
+        <member name="M:MyToDoAppV1.Controllers.TypeController.GetToDoTypeAsync(System.Int32)">
+            <summary>
+            GetToDoType
+            </summary>
+            <param name="TypeId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDoAppV1.Controllers.TypeController.EditToDoTypeAsync(System.Int32,ToDoLibrary.Models.ToDoType)">
+            <summary>
+            EditToDoType
+            </summary>
+            <param name="TypeId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
